@@ -71,7 +71,7 @@ func redirectStdin() {
 
 	packStarted := time.Now()
 
-	jsScript, err := k6pack.Pack(string(source), opts)
+	jsScript, _, err := k6pack.Pack(string(source), opts)
 	if err != nil {
 		logrus.WithError(err).Fatal()
 	}
