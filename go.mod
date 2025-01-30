@@ -49,5 +49,3 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/guregu/null.v3 v3.3.0 // indirect
 )
-
-replace github.com/grafana/xk6-ts => github.com/chadcurtis/xk6-ts v0.0.2-0.20250130055137-e8dbc8bce827
