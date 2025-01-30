@@ -1,4 +1,4 @@
-module github.com/grafana/xk6-ts
+module github.com/chadcurtis/xk6-ts
 
 go 1.20
 
