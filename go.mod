@@ -1,6 +1,8 @@
 module github.com/chadcurtis/xk6-ts
 
-go 1.20
+go 1.22
+
+toolchain go1.23.4
 
 require (
 	github.com/grafana/k6pack v0.2.4
@@ -12,7 +14,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/dlclark/regexp2 v1.9.0 // indirect
 	github.com/dop251/goja v0.0.0-20240516125602-ccbae20bcec2 // indirect
-	github.com/evanw/esbuild v0.21.2 // indirect
+	github.com/evanw/esbuild v0.24.2 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -38,7 +40,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.1.0 // indirect
 	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240227224415-6ceb2ff114de // indirect
@@ -48,4 +50,4 @@ require (
 	gopkg.in/guregu/null.v3 v3.3.0 // indirect
 )
 
-replace github.com/grafana/xk6-ts => github.com/chadcurtis/xk6-ts 0.0.1
+replace github.com/grafana/xk6-ts => github.com/chadcurtis/xk6-ts v0.0.2-0.20250130055137-e8dbc8bce827
